@@ -24,10 +24,10 @@ export default function Website() {
   };
 
   return (
-    <div className="min-h-screen bg-[#f8f5f0] text-gray-800">
+    <div style={{ minHeight: "100vh", background: "#f8f5f0", color: "#333" }}>
 
       {/* Header (Logo Removed) */}
-      <header className="bg-[#3b2a1a] text-white p-4 flex justify-between items-center">
+      <header style={{ background: "#3b2a1a", color: "#fff", padding: "16px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
         <h1 className="text-xl font-bold">Best Enterprises</h1>
         <div className="space-x-4">
           <a href="#services">Services</a>
