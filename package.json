@@ -9,6 +9,10 @@
     "lint": "eslint"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "@next/swc-win32-x64-msvc": "^16.2.2",
+>>>>>>> 4e3f375b52b9451422d5118ad769ff5e89d4cedf
     "next": "16.2.2",
     "react": "19.2.4",
     "react-dom": "19.2.4"
